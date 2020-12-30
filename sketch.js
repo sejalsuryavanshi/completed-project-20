@@ -31,5 +31,8 @@ function draw() {
       wall.shapeColor=color("white");
     }
   }
+  
+  wall.collide(car);
+  
   drawSprites();
 }
